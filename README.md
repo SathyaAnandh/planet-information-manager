@@ -2,83 +2,144 @@
 
 ## Overview
 
-Planet Information Manager is a Python-based application developed using Google Colab that allows users to access and manage information about planets in our Solar System. The project demonstrates fundamental programming concepts such as data storage, user interaction, conditional statements, loops, and information retrieval.
+Planet Information Manager is a Python-based console application designed to manage and organize information about planets in the Solar System. The project provides an interactive menu-driven interface that allows users to view, search, add, update, and delete planetary records.
 
-This project was developed as part of a hands-on learning experience to strengthen Python programming skills and data management techniques.
+This project was developed using Python in Visual Studio Code as part of my journey to strengthen programming fundamentals, object-oriented programming concepts, and data management skills.
 
 ---
 
 ## Features
 
-- Display information about planets in the Solar System
-- Retrieve details of individual planets
-- Store and organize planetary data
-- Interactive menu-driven interface
-- Beginner-friendly implementation
+* View information for all planets
+* Search for a specific planet
+* Add new planetary records
+* Update existing planet information
+* Delete planet records
+* Interactive menu-driven interface
+* Input validation and exception handling
+* Object-Oriented Programming (OOP) implementation
 
 ---
 
 ## Technologies Used
 
-- Python
-- Google Colab
-- Jupyter Notebook (.ipynb)
+* Python 3
+* Visual Studio Code (VS Code)
 
 ---
 
 ## Project Structure
 
 ```text
-Planet_Information_Manager.ipynb
-README.md
+Planet_Information_Manager/
+│
+├── planet_information_manager.py
+└── README.md
 ```
 
 ---
 
-## Learning Outcomes
+## Concepts Demonstrated
 
-Through this project, I gained practical experience in:
+This project showcases:
 
-- Python programming fundamentals
-- Working with dictionaries and data structures
-- User input handling
-- Conditional logic and loops
-- Organizing and managing structured information
-- Developing interactive console applications
+* Object-Oriented Programming (Classes and Objects)
+* Dictionaries for data storage
+* CRUD Operations
 
----
-
-## Future Improvements
-
-Potential enhancements for future versions include:
-
-- Graphical User Interface (GUI)
-- Planet image integration
-- Additional planetary parameters and statistics
-- Search and filtering capabilities
-- Data storage using databases
-- Integration with real-time astronomical APIs
+  * Create
+  * Read
+  * Update
+  * Delete
+* User Input Handling
+* Exception Handling
+* Menu-Driven Application Design
 
 ---
 
-## Getting Started
+## Preloaded Planet Data
 
-### Prerequisites
+The application includes information for:
 
-- Python 3.x
-- Google Colab or Jupyter Notebook
+* Mercury
+* Venus
+* Earth
+* Mars
+* Jupiter
+* Saturn
+* Uranus
+* Neptune
 
-### Running the Project
+Each planet record contains:
 
-1. Clone the repository:
+* Planet Name
+* Diameter (km)
+* Number of Moons
+* Surface Gravity (m/s²)
+
+---
+
+## Installation
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/SathyaAnandh/planet-information-manager.git
 ```
 
-2. Open the notebook in Google Colab or Jupyter Notebook.
+### Navigate to the Project Folder
 
-3. Run all cells and follow the on-screen instructions.
+```bash
+cd planet-information-manager
+```
+
+### Run the Application
+
+```bash
+python planet_information_manager.py
+```
+
+---
+
+## Sample Menu
+
+```text
+================================
+      PLANET INFORMATION MANAGER
+================================
+1. View All Planets
+2. Search Planet
+3. Add Planet
+4. Update Planet
+5. Delete Planet
+6. Exit
+```
+
+---
+
+## Future Improvements
+
+Planned enhancements include:
+
+* Data persistence using JSON files or databases
+* Graphical User Interface (GUI)
+* Planet images and descriptions
+* Sorting and filtering options
+* Additional planetary parameters
+* Integration with astronomy APIs for real-time data
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained hands-on experience in:
+
+* Python programming
+* Object-Oriented Design
+* Data organization and management
+* Building interactive console applications
+* Exception handling and debugging
+* Software development using Visual Studio Code
 
 ---
 
@@ -86,10 +147,18 @@ git clone https://github.com/SathyaAnandh/planet-information-manager.git
 
 **Sathya Anandharaj**
 
-Computer Science Engineering Student with a strong interest in space science, planetary exploration, and software development.
+Computer Science Engineering Student
+
+Interests:
+
+* Space Science
+* Machine Learning
+* Data Science
+* Autonomous Systems
+* Software Development
 
 ---
 
 ## License
 
-This project is intended for educational and learning purposes.
+This project is created for educational and learning purposes.
