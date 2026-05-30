@@ -73,7 +73,7 @@ Potential enhancements for future versions include:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/planet-information-manager.git
+git clone https://github.com/SathyaAnandh/planet-information-manager.git
 ```
 
 2. Open the notebook in Google Colab or Jupyter Notebook.
